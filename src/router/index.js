@@ -13,7 +13,13 @@ const routes = [
     component: HelloWorld
   },
   {
-    path: '/page1',
+    path: '/page1/',
+    name: 'Page1',
+    component: Page1
+  },
+  {
+    path: '/page1/:id',
+    props:true,
     name: 'Page1',
     component: Page1
   },
